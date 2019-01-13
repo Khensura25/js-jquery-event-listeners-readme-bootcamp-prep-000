@@ -16,10 +16,10 @@ function frameIt(){
 
 
 function pressIt() {
-$('input:form').on('keydown', 
+$('form').on('keydown', 
 function(key) {
-  if(key.which == 71 ) {
-        alert('G was pressed');
+if(key.which == 71 ){
+alert('G was pressed');
 }
 });
 }
